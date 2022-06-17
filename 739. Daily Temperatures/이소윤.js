@@ -3,8 +3,6 @@
  * @return {number[]}
  */
 var dailyTemperatures = function(temperatures) {
-    // create the result array with same length as temperatures array
-	// we will be adding num of days from right to left in this array
     const result = new Array(temperatures.length);
     const monoStack = [];
     
